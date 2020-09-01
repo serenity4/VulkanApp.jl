@@ -1,5 +1,12 @@
 module VulkanApp
 
-# Write your package code here.
+using QML
+
+function main(qml_file)
+    load(qml_file)
+    exec()
+end
+
+export main
 
 end
